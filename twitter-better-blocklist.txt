@@ -3,7 +3,6 @@
 
 ! Remove the "Trending" sidebar section from twitter.com
 twitter.com##[aria-label$="Trending now"]
-twitter.com##:xpath(//section[descendant::*[contains(text(), "What’s happening")]])
 
 ! Remove the "Who to follow" sidebar section from twitter.com
 twitter.com##:xpath(//div[aside[@aria-label="Who to follow"]])
